@@ -8,12 +8,15 @@ public class main{
     int eleccion = teclado.nextInt();
     switch (eleccion){
         case 3:
+        
+        
         NombreMes meses = new NombreMes();
         meses.meses(teclado);
 
     
     
   }
+     }
 
 
 
@@ -27,5 +30,4 @@ public class main{
 
 
 
-}
 }
