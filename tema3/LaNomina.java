@@ -1,7 +1,8 @@
+package tema3;
 import java.util.Scanner;
 
 public class LaNomina{
-
+    //Ejercicio 5
         public void nominaEmpleado(Scanner teclado){
               System.out.println("Apellido del empleado: ");
               String apellido = teclado.next();

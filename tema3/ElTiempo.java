@@ -1,5 +1,7 @@
+package tema3;
 import java.util.Scanner;
 public class ElTiempo{
+  //Ejercicio1
 
     public double riesgoHielo(Scanner teclado){
         System.out.println("Introduce la temperatura en grados centígrados(ºC): ");
