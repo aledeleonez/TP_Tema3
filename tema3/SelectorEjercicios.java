@@ -32,7 +32,9 @@ public class SelectorEjercicios {
                     LaNomina ejercicio5 = new LaNomina();
                     ejercicio5.nominaEmpleado(teclado);
                     break;
-
+                default:
+                    System.out.println("\nOpción no valida\n");
+                    break;
 
 
             }
@@ -43,14 +45,14 @@ public class SelectorEjercicios {
 
 
 
-    private static void menu(){
+   private static void menu(){
         System.out.println("\nQue ejercicio quieres ver: \n" );
         System.out.println("1. El tiempo");
         System.out.println("2. El tiempo segunda version");
         System.out.println("3. El nombre del mes");
         System.out.println("4. Tiempo de coccion");
         System.out.println("5. La nomina");
-        System.out.println("6. Salir");
+        System.out.println("6. Salir\n");
     }
 
 
